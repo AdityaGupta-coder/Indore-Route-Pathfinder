@@ -1,0 +1,50 @@
+### Get all stations
+GET http://localhost:5000/api/stations
+
+###
+
+POST http://localhost:5000/api/stations
+Content-Type: application/json
+
+{
+  "name": "Rajwada Station"
+}
+
+
+###
+
+POST http://localhost:5000/api/stations/connect
+Content-Type: application/json
+
+{
+  "stationId1": "683de2a879991d2ea157a4b1",
+  "stationId2": "ANOTHER_STATION_ID",
+  "distance": 3,
+  "cost": 15
+}
+
+
+
+
+
+POST http://localhost:5000/api/stations/connect
+Content-Type: application/json
+
+{
+  "stationId1": "YOUR_FIRST_STATION_ID",
+  "stationId2": "YOUR_SECOND_STATION_ID",
+  "distance": 5,
+  "cost": 10
+}
+
+
+
+POST http://localhost:5000/api/stations/connect
+Content-Type: application/json
+
+{
+  "stationId1": "683de2a879991d2ea157a4b1",
+  "stationId2": "another_station_id_here",
+  "distance": 3,
+  "cost": 15
+}
