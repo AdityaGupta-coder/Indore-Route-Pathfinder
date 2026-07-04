@@ -127,16 +127,7 @@ Uses **Dijkstra's Algorithm** to find:
 2. Create feature branch: `git checkout -b feature-name`
 3. Commit changes: `git commit -m 'Add feature'`
 4. Push branch: `git push origin feature-name`
-5. Open Pull Request
-
----
-
-## 📬 Contact
-
-**Made by Harshit Singh**
-
-- 📧 Email: harshitsingh789123@gmail.com
-- 💻 GitHub: [harshitsingh4321](https://github.com/harshitsingh4321)
+5. Open Pull Request.
 
 ---
 
